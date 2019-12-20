@@ -1,0 +1,37 @@
+ul{
+  list-style: none;
+}
+
+.list-container{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-content: center;
+  max-width: 90%;
+  height: 100vh;
+}
+
+.one-pokemon{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 15px;
+  width: 190px;
+  color: red;
+  background-color: rgb(39, 0, 0);
+  
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: url(../images/llamas.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skills-container{
+  display: flex;
+  justify-content: space-around;
+  margin-left: -45px;
+  padding-bottom: 15px;
+}
