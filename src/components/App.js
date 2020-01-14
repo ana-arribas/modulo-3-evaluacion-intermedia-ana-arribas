@@ -6,13 +6,10 @@ import PokeList from './PokeList';
 class App extends React.Component {
   constructor(props) {
     super(props)
-
     this.state = {
       arrayOfPokemons: pokemons,
     }
   }
-
-
   render() {
     return (
       <div className="main-container" >
@@ -21,5 +18,4 @@ class App extends React.Component {
     );
   }
 }
-
 export default App;
